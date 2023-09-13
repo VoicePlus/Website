@@ -4,7 +4,7 @@ body {
     background-color: #150E1F;
     background-image: url('../assets/svgs/hero-background.svg');
     background-repeat: no-repeat;
-    background-position: center top; /* Adjusted background position */
+    background-position: center top;
     margin-top: 43rem;
 }
 
@@ -24,7 +24,7 @@ body {
 }
 
 .hero-image:hover {
-    scale: 1.1;
+    scale: 105%;
 }
 
 .hero-title {
@@ -49,6 +49,11 @@ body {
     cursor: pointer;
     position: absolute;
     margin-top: 17rem;
+    transition: all ease 0.2s;
+}
+
+.get-started-button:hover {
+    scale: 103%;
 }
 
 .support-server-button {
@@ -56,4 +61,18 @@ body {
     position: absolute;
     margin-top: 17rem;
     margin-left: 14rem;
+    transition: all ease 0.2s;
+}
+
+.support-server-button:hover {
+    scale: 103%;
+}
+
+.voice-plus-text {
+    transition: all ease 0.2s;
+}
+
+.voice-plus-text:hover {
+    color: #CA265B;
+    cursor: pointer;
 }
