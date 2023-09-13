@@ -15,12 +15,3 @@ Yes, we do allow contributions! If you want then simple do ` git clone https://g
 + added styles folder
 - removed assets folder
 + added assets/svg folder
-
-# Recent Changes
-```diff
-+ added components folder
-+ added pages folder
-+ added styles folder
-- removed assets folder
-+ added assets/svg folder
-+ added hover animations
