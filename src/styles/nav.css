@@ -1,0 +1,27 @@
+.navbar {
+    width: 100%;
+    margin-top: -43rem;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px 0;
+    background: rgba(48, 26, 79, 0.25);
+    background-blend-mode: soft-light;
+    backdrop-filter: blur(64px);
+}
+
+.navbar-content {
+    width: 928px;
+    height: 42px;
+}
+
+.nav-btns {
+    cursor: pointer;
+    display: flex;
+    color: #8F8F8F;
+    gap: 30px;
+    font-size: 16px;
+    margin-left: 39.8rem;
+    margin-top: -2.6rem;
+}
