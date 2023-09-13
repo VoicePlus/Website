@@ -6,10 +6,11 @@
     justify-content: center;
     align-items: center;
     padding: 36px 0;
-    background: rgba(48, 26, 79, 0.25);
-    background-blend-mode: soft-light;
+    background: rgba(36, 20, 57, 0.588);
     backdrop-filter: blur(64px);
+    z-index: 999; /* Set a high z-index value to bring it above other elements */
 }
+
 
 .navbar-content {
     width: 928px;

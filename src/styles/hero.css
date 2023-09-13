@@ -4,7 +4,7 @@ body {
     background-color: #150E1F;
     background-image: url('../assets/svgs/hero-background.svg');
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: center top; /* Adjusted background position */
     margin-top: 43rem;
 }
 
@@ -20,6 +20,11 @@ body {
 .hero-image {
     margin-left: 30.5rem;
     user-select: none;
+    transition: all ease 1s;
+}
+
+.hero-image:hover {
+    scale: 1.1;
 }
 
 .hero-title {
