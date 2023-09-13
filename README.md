@@ -23,3 +23,4 @@ Yes, we do allow contributions! If you want then simple do ` git clone https://g
 + added styles folder
 - removed assets folder
 + added assets/svg folder
++ added hover animations
